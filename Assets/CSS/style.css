@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.container {
+    text-align: center; 
+    margin: 0 auto; 
+    padding: 20px; 
+    max-width: 500px;
+}
+
+.container h1 {
+    color: #333; 
+    font-size: 2em; 
+    margin-bottom: 10px; 
+}
+
+.container p {
+    color: #666; 
+    font-size: 1em; 
+    text-align: justify; 
+    margin-top: 0; 
+    margin-bottom: 20px; 
+}
+
+.entrar-btn {
+    background-color: #007BFF; 
+    color: white; 
+    font-size: 1em; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-transform: uppercase; 
+    transition: background-color 0.3s ease; 
+}
+
+.entrar-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o container geral */
+.container {
+    text-align: center; /* Centraliza o conteúdo no centro */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    padding: 20px; /* Espaçamento interno do container */
+    max-width: 500px; /* Largura máxima do container */
+}
+
+/* Estilo para o título h1 */
+.container h1 {
+    color: #333; /* Cor do texto do h1 */
+    font-size: 2em; /* Tamanho da fonte do h1 */
+    margin-bottom: 10px; /* Margem inferior do h1 */
+}
+
+/* Estilo para o parágrafo p */
+.container p {
+    color: #666; /* Cor do texto do parágrafo */
+    font-size: 1em; /* Tamanho da fonte do parágrafo */
+    text-align: justify; /* Justificação do texto do parágrafo */
+    margin-top: 0; /* Margem superior do parágrafo */
+    margin-bottom: 20px; /* Margem inferior do parágrafo */
+}
+
+/* Estilo para o botão */
+.entrar-btn {
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    font-size: 1em; /* Tamanho da fonte do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+/* Estilo para o botão ao passar o mouse */
+.entrar-btn:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
